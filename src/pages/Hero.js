@@ -160,7 +160,13 @@ const Hero = () => {
       <div className="section-featured-works">
         <br />
 
-        <div className="section-featured-works-div">
+        <div
+          className="section-featured-works-div"
+          style={{
+            backgroundColor: "purple",
+           
+          }}
+        >
           <h3>
             Featured Projects
             <FiArrowDownCircle
@@ -168,14 +174,17 @@ const Hero = () => {
             />
           </h3>
         </div>
-        
-        <div className="section-works">
+
+        <div className="section-works" style={{
+          gap:'1em'
+        }}>
           <a href="https://mono.co">
             <div
               className="details-me"
               style={{
                 backgroundColor: "black",
                 color: "white",
+                marginTop: "0em",
               }}
             >
               <h4>Mono.co Landing Page - African Fintech</h4>
@@ -185,23 +194,29 @@ const Hero = () => {
             </div>
           </a>
           <a href="https://app.mono.co">
-            <div className="details-me"   style={{
-            backgroundColor: "black",
-            marginTop:'0em',
-            color: "white",
-          }}>
-              <h4>Mono.co Web App- African Fintech</h4>
+            <div
+              className="details-me"
+              style={{
+                backgroundColor: "black",
+                marginTop: "0em",
+                color: "white",
+              }}
+            >
+              <h4>Mono.co Web Application - African Fintech</h4>
               <span>
                 <BsFillArrowUpRightCircleFill className="icon-arrows" />
               </span>{" "}
             </div>
           </a>
           <a href="https://acadaboo.com">
-            <div className="details-me"   style={{
-            backgroundColor: "black",
-            marginTop:'0em',
-            color: "white",
-          }}>
+            <div
+              className="details-me"
+              style={{
+                backgroundColor: "black",
+                marginTop: "0em",
+                color: "white",
+              }}
+            >
               <h4>Acadaboo Landing Page - Nigeria Student Site</h4>
               <span>
                 <BsFillArrowUpRightCircleFill className="icon-arrows" />
@@ -209,11 +224,14 @@ const Hero = () => {
             </div>
           </a>
           <a href="https://acadaboo.com/login">
-            <div className="details-me"   style={{
-            backgroundColor: "black",
-            marginTop:'0em',
-            color: "white",
-          }}>
+            <div
+              className="details-me"
+              style={{
+                backgroundColor: "black",
+                marginTop: "0em",
+                color: "white",
+              }}
+            >
               <h4>Acadaboo Web Application - Nigeria Student Site</h4>
               <span>
                 <BsFillArrowUpRightCircleFill className="icon-arrows" />
@@ -221,11 +239,14 @@ const Hero = () => {
             </div>
           </a>
           <a href="https://passcoder.io">
-            <div className="details-me"   style={{
-            backgroundColor: "black",
-            marginTop:'0em',
-            color: "white",
-          }}>
+            <div
+              className="details-me"
+              style={{
+                backgroundColor: "black",
+                marginTop: "0em",
+                color: "white",
+              }}
+            >
               <h4>Passcoder Landing Page - Nigeria Identity Startup</h4>
               <span>
                 <BsFillArrowUpRightCircleFill className="icon-arrows" />
@@ -234,11 +255,14 @@ const Hero = () => {
           </a>
 
           <a href="https://shoppermans-ecommerce-react-store.vercel.app">
-            <div className="details-me"   style={{
-            backgroundColor: "black",
-            marginTop:'0em',
-            color: "white",
-          }}>
+            <div
+              className="details-me"
+              style={{
+                backgroundColor: "black",
+                marginTop: "0em",
+                color: "white",
+              }}
+            >
               <h4>My Personal E-commerce Shopping Project</h4>
               <span>
                 <BsFillArrowUpRightCircleFill className="icon-arrows" />
